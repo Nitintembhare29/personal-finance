@@ -1,0 +1,36 @@
+.input-wrapper {
+  margin-bottom: 0.75rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+}
+.test{
+  flex-direction: column;
+}
+.label-input {
+  text-transform: capitalize;
+    margin-bottom: 1rem;
+    font-size: .8rem;
+    font-weight: 600;
+    color:rgb(40, 40, 41);
+  
+}
+.custom-input {
+  border: 0;
+  border-bottom: .5px solid rgb(201, 199, 199);
+  width: 100%;
+  font-size: .8rem;
+  font-weight: 700;
+  padding-top: .4rem;
+  opacity: 0.8;
+}
+.custom-input:focus {
+  outline: none;
+  opacity: 1;
+  transition: all 0.2s;
+  font-weight: 500;
+}
+.custom-input::placeholder {
+  font-weight: 300;
+  color: black;
+}
